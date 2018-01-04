@@ -73,7 +73,7 @@ h1 {
 
 .split.left {
 	left: 0;
-	background: url('heaven.png') center center no-repeat;
+	background: url('heaven.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -87,7 +87,7 @@ h1 {
 
 .split.right {
 	right: 0;
-	background: url(hell.png) center center no-repeat;
+	background: url(hell.jpg) center center no-repeat;
 	background-size: cover;
 }
 
