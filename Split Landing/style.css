@@ -19,7 +19,7 @@ html, body{
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	color: #fff;
 	position: absolute;
 	left: 50%;
@@ -105,6 +105,24 @@ h1 {
 
 .hover-left .left {
 	width: var(--hover-width);
+}
+
+.hover-left #heaven {
+	transition: var(--speed) all ease-in-out;
+	font-size: 5rem;
+}
+
+.hover-left #hell {
+	transition: var(--speed) all ease-in-out;
+	font-size: 2rem;
+}
+.hover-right #hell {
+	transition: var(--speed) all ease-in-out;
+	font-size: 5rem;
+}
+.hover-right #heaven {
+	transition: var(--speed) all ease-in-out;
+	font-size: 2rem;
 }
 
 .hover-left .right {
