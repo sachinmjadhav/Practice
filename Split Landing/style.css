@@ -3,7 +3,7 @@
 	--left-bg-color: rgba(39, 39, 103, 0.5);
 	--left-button-hover-color: rgba(161, 161, 161, 0.3);
 	--right-bg-color: rgba(143, 43, 43, 0.6);
-	--right-button-hover-color: rgba(92, 92, 92, 0.3);
+	--right-button-hover-color: rgba(162, 92, 92, 0.3);
 	--hover-width: 70%;
 	--other-width: 30%;
 	--speed: 1000ms;
@@ -12,21 +12,43 @@
 html, body{
 	padding: 0;
 	margin: 0;
-	font-family: sans-serif;
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
 }
 
 h1 {
-	font-size: 3rem;
-	color: #fff;
+	/*font-size: 3rem;*/
+	/*color: #fff;*/
 	position: absolute;
 	left: 50%;
+	/*font-family: "papyrus regular";	*/
 	top: 10%;
 	transform: translateX(-50%);
 	white-space: nowrap;
 }
+
+#heaven {
+	background: -webkit-linear-gradient(#fff, #58f);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	top: 8%;
+  	font-weight: bolder;
+  	font-size: 4rem;
+	font-family: "Amatic SC";
+  	/*-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: #58f;*/
+}
+#hell {
+ 	background: -webkit-linear-gradient(#fff, #f90);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-weight: bolder;
+  	font-size: 3rem;
+  	font-family: "papyrus regular";
+  	/*-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: #f90;*/
+ }
 
 .button {
 	display: block;
@@ -34,16 +56,33 @@ h1 {
 	left: 50%;
 	top: 40%;
 	height: 2.5rem;
+	font-family: 'Exo';
 	padding-top: 1.3rem;
 	width: 15rem;
 	text-align: center;
 	color: #fff;
-	border: #fff solid 0.2rem;
-	font-size: 1rem;
+	/*border: #fff solid 0.2rem;*/
+	font-size: 1.3rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	transform: translateX(-50%);
+}
+
+#hellb {
+	border: #fff solid 0.2rem;
+    -moz-border-image: -moz-linear-gradient(top, #fef53e 0%, #9a1100 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #fef53e 0%, #9a1100 100%);
+	border-image: linear-gradient(to bottom, #fef53e 0%, #9a1100 100%);
+	border-image-slice: 1;
+}
+
+#heavenb {
+	border: 0.2rem solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+	border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+	border-image-slice: 1;
 }
 
 
@@ -109,7 +148,9 @@ h1 {
 
 .hover-left #heaven {
 	transition: var(--speed) all ease-in-out;
-	font-size: 5rem;
+	font-size: 6rem;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: #58f;
 }
 
 .hover-left #hell {
@@ -157,6 +198,6 @@ h1 {
 
 @media (max-height: 700px) {
 	.button {
-		top: 70%;
+		top: 72%;
 	}
 }
