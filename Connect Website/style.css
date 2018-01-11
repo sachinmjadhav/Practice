@@ -6,8 +6,8 @@
 #hr1 {
   border:none;
   height: 20px;
-  width: 100%;
-  height: 55px;
+  width: 800px;
+  height: 58px;
   margin-top: 0;
   border-bottom: 1px solid #aaa;
   box-shadow: 0 20px 20px -20px #777;
@@ -21,7 +21,7 @@
   font-family: "Century Gothic";
 }
 .main {
-  padding-top: 40px;
+  padding-top: 70px;
 }
 .link {
   float: left;
@@ -32,9 +32,9 @@
 }
 .header {
   /* background: url("link.png"); */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 100px;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* background-position: 100px; */
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -51,15 +51,17 @@ margin-bottom: 100px;
 text-shadow: 2px 2px 5px lightblue;
 color: rgba(0, 0, 230, 0.4);
 } */
+.wrapper .navi {
+  width: 100%;
+}
 
 .navi {
   position: fixed;
-  width: 100%;
   z-index: 100;
   margin-top: 0;
   text-align: center;
   background-color: white;
-  padding: 5px;
+  padding: 8px;
   /* margin: 0; */
 }
 
@@ -96,7 +98,7 @@ color: rgba(0, 0, 230, 0.4);
   width: 45%;
   height: 400px;
   padding-top: 40px;
-  line-height: 93%;
+  line-height: 96%;
   font-size: 25px;
   margin: 40px 10px 40px 10px;
   float: right;
@@ -131,7 +133,7 @@ color: rgba(0, 0, 230, 0.4);
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  height: 350px;
+  height: 330px;
   text-align: center;
   font-size: 32px;
   background-color: rgba(240, 240, 240, 0.4);
@@ -191,7 +193,7 @@ h3 {
 
 .mid-ele {
   clear: both;
-  margin: 10px auto;
+  margin: 10px auto 60px auto;
   width: 90%;
   height: 350px;
   padding-top: 80px;
@@ -223,6 +225,18 @@ h3 {
   background-color: rgb(68,138,255);
   color: white;
 }
+
+.scroll {
+  position: relative;
+  left: 1150px;
+  cursor: pointer;
+}
+.scroll a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 
 #hr2 {
   height: 10px;
@@ -346,6 +360,7 @@ input[type=text], input[type=password] {
 
 /* The Modal (background) */
 .modal {
+  font-family: 'Century Gothic';
   display:none;
   position: fixed;
   z-index: 1;

@@ -15,7 +15,7 @@
 <body>
   <div class="wrapper">
     <!-- Navigation -->
-    <div class="navi">
+    <div class="navi" id="home">
       <a href="#">HOME</a>
       <a href="#">PRODUCTS</a>
       <a href="#">ABOUT US</a>
@@ -26,7 +26,7 @@
     </div>
 
     <!-- Heading -->
-    <div class="main">
+    <div id="home" class="main">
       <div class="header">
         <img class="link" src="link.png" alt="Chain" width="80px" height="70px">
         <h1><img src="connect.png" alt="Logo" width="300px" height="50px"></h1>
@@ -63,10 +63,24 @@
     </div>
 
     <div class="mid-ele">
-      <img src="logo.png" alt="Logo" width="50px" height="50px">
+      <img src="link.png" alt="Logo" width="50px" height="50px">
       <p>Keep me updated about devices, news and offers from Company.</p><br>
       <button onclick="document.getElementById('modal-wrapper').style.display='block'" class="button2" type="button" name="Sign Up">Sign Up</button>
     </div>
+
+    <!-- Scroll to Top -->
+    <div class="scroll">
+      <a href="#home">Back to Top
+        <svg class="scroll-to-top" width="20px" height="20px">
+          <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+            <circle cx="9" cy="9" fill="#000" r="9"></circle>
+            <polygon fill="#fff" points="3 9 4.0575 10.0575 8.25 5.8725 8.25 15 9.75 15 9.75 5.8725 13.935 10.065 15 9 9 3"></polygon>
+          </g>
+        </svg>
+      </a>
+    </div>
+    <!-- Scroll to Top End -->
+
     <hr id="hr2">
     <!-- Content End -->
 
@@ -80,9 +94,11 @@
         </div>
 
         <div class="container">
-          <input type="text" placeholder="Enter Username" name="uname">
-          <input type="password" placeholder="Enter Password" name="psw">
-          <button class="submit" type="submit">Login</button>
+          <form action="#" method="post">
+            <input type="text" placeholder="Enter Username" name="uname">
+            <input type="password" placeholder="Enter Password" name="psw">
+            <button class="submit" type="submit">Login</button>
+          </form>
           <input id="remember" type="checkbox" style="margin:26px 30px;">
           <label for="remember">Remember Me</label>
           <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a><br>
@@ -131,7 +147,7 @@
   sr.reveal('.left-content2', {
     duration: 2000,
     origin:'top',
-    distance:'300px'
+    distance:'100px'
   });
   sr.reveal('.right-content2', {
     duration: 2000,
@@ -167,7 +183,6 @@
       modal.style.display = "none";
     }
   }
-
   </script>
 </body>
 </html>
