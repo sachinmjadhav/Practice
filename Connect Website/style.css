@@ -18,7 +18,7 @@
   /* margin: 10px auto; */
   margin-bottom: 0px;
   background-color: #fff;
-  font-family: "Playfair Display";
+  font-family: "Century Gothic";
 }
 .main {
   padding-top: 40px;
@@ -40,6 +40,7 @@
   padding: 10px;
 }
 .header p {
+  font-size: 21px;
   color: #666;
 }
 
@@ -173,7 +174,7 @@ h3 {
 }
 
 .right-content p {
-  font-family: "Macondo";
+  font-family: "Century Gothic";
   color: #888;
   text-align: center;
   padding: 20px;
@@ -181,7 +182,7 @@ h3 {
 
 .left-content2 p {
   color: #888;
-  font-family: "Macondo";
+  font-family: "Century Gothic";
   text-align: center;
   padding: 20px;
 }
