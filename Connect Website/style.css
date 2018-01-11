@@ -31,17 +31,16 @@ html
   float: left;
   height: inherit;
   position: absolute;
-  left: 32%;
+  left: 30%;
   opacity: 0.6;
 }
 .header {
   /* background: url("link.png"); */
-  /* background-size: contain; */
-  /* background-repeat: no-repeat; */
-  /* background-position: 100px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100px;
   font-size: 30px;
   text-align: center;
-  padding: 10px;
 }
 .header p {
   font-size: 21px;
