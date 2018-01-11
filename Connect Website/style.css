@@ -1,10 +1,10 @@
 html
 {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 #hr1 {
@@ -61,11 +61,10 @@ color: rgba(0, 0, 230, 0.4);
 .navi {
   position: fixed;
   z-index: 100;
-  margin-top: 0;
+  margin-top: -8px;
   text-align: center;
   background-color: white;
   padding: 8px;
-  /* margin: 0; */
 }
 
 .navi a {
@@ -244,11 +243,13 @@ h3 {
 #hr2 {
   height: 10px;
   border: 0;
+  margin-bottom: 1px;
   box-shadow: 0 -10px 10px -10px #777 inset;
 }
 .footer {
   height: 35px;
   clear: both;
+  margin-bottom: 0px;
   font-family: cursive;
   background: linear-gradient(#eee, #ddd);
   color: black;
