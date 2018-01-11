@@ -95,7 +95,9 @@ color: rgba(0, 0, 230, 0.4);
 .right-content {
   width: 45%;
   height: 400px;
-  font-size: 30px;
+  padding-top: 40px;
+  line-height: 93%;
+  font-size: 25px;
   margin: 40px 10px 40px 10px;
   float: right;
   border-radius: 30px;
