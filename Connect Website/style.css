@@ -1,12 +1,45 @@
-html
-{
+html {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
 }
+.wrapper {
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #fff;
+  font-family: "Century Gothic";
+}
 
+/* Navigation Menu */
+.navi {
+  position: fixed;
+  z-index: 100;
+  margin-top: -8px;
+  text-align: center;
+  background-color: white;
+  padding: 8px;
+}
+.wrapper .navi {
+  width: 100%;
+}
+.navi a {
+  text-decoration: none;
+  color: #888;
+  font-weight: normal;
+  word-spacing: 3px;
+  padding: 5px 24px;
+}
+.navi a:nth-child(1) {
+  background-color: #eee;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.navi a:hover {
+  background-color: #eee;
+  border-radius: 10px;
+}
 #hr1 {
   border:none;
   height: 20px;
@@ -15,15 +48,10 @@ html
   margin-top: 0;
   border-bottom: 1px solid #aaa;
   box-shadow: 0 20px 20px -20px #777;
-  margin: -50px auto 10px;
+  margin: -50px auto 10px auto;
 }
-.wrapper {
-  width: 100%;
-  /* margin: 10px auto; */
-  margin-bottom: 0px;
-  background-color: #fff;
-  font-family: "Century Gothic";
-}
+
+/* Main Title */
 .main {
   padding-top: 40px;
 }
@@ -31,7 +59,7 @@ html
   float: left;
   height: inherit;
   position: absolute;
-  left: 28%;
+  left: 27%;
   opacity: 0.6;
 }
 .header {
@@ -42,51 +70,15 @@ html
   font-size: 30px;
   text-align: center;
 }
+.main .title {
+  opacity: 0.65;
+}
 .header p {
   font-size: 21px;
   color: #666;
 }
 
-/* .inc {
-font-family: 'Neuton';
-font-size: 50px;
-margin-bottom: 100px;
-text-shadow: 2px 2px 5px lightblue;
-color: rgba(0, 0, 230, 0.4);
-} */
-.wrapper .navi {
-  width: 100%;
-}
-
-.navi {
-  position: fixed;
-  z-index: 100;
-  margin-top: -8px;
-  text-align: center;
-  background-color: white;
-  padding: 8px;
-}
-
-.navi a {
-  text-decoration: none;
-  color: #888;
-  font-weight: normal;
-  word-spacing: 3px;
-  padding: 5px 12px;
-}
-
-.navi a:nth-child(1) {
-  background-color: #eee;
-  border-radius: 10px;
-  font-weight: bold;
-}
-
-.navi a:hover {
-  background-color: #eee;
-  border-radius: 10px;
-  padding: 5px 12px;
-}
-
+/* Content */
 .left-content {
   width: 45%;
   height: 400px;
@@ -95,7 +87,6 @@ color: rgba(0, 0, 230, 0.4);
   float: left;
   background-color: #fff;
 }
-
 .right-content {
   width: 45%;
   height: 400px;
@@ -127,7 +118,6 @@ color: rgba(0, 0, 230, 0.4);
   background-color: rgb(68,138,255);
   color: white;
 }
-
 .mid-content {
   clear: both;
   width: 100%;
@@ -150,7 +140,6 @@ cite {
   font-size: 30px;
   color: #777;
 }
-
 .left-content2 {
   width: 45%;
   height: 400px;
@@ -159,9 +148,7 @@ cite {
   margin: 30px 10px 40px 10px;
   float: left;
   border-radius: 30px;
-  /* background-color: rgba(240, 240, 240, 0.4); */
 }
-
 .right-content2 {
   width: 45%;
   height: 400px;
@@ -170,29 +157,32 @@ cite {
   float: right;
   background-color: #fff;
 }
-
-h3 {
+.right-content h3 {
   text-align: center;
   color: #333;
   font-size: 40px;
   padding: 10px;
   margin: 10px;
 }
-
 .right-content p {
   font-family: "Century Gothic";
   color: #888;
   text-align: center;
   padding: 20px;
 }
-
 .left-content2 p {
   color: #888;
   font-family: "Century Gothic";
   text-align: center;
   padding: 20px;
 }
-
+.left-content2 h3 {
+  text-align: center;
+  color: #333;
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+}
 .mid-ele {
   clear: both;
   margin: 10px auto 60px auto;
@@ -227,9 +217,9 @@ h3 {
   background-color: rgb(68,138,255);
   color: white;
 }
-
 .scroll {
   position: relative;
+  opacity: 0.7;
   left: 1150px;
   cursor: pointer;
 }
@@ -238,14 +228,14 @@ h3 {
   color: black;
   font-weight: bold;
 }
-
-
 #hr2 {
   height: 10px;
   border: 0;
   margin-bottom: 1px;
   box-shadow: 0 -10px 10px -10px #777 inset;
 }
+
+/* Footer */
 .footer {
   height: 35px;
   clear: both;
@@ -255,15 +245,15 @@ h3 {
   color: black;
   padding-top: 10px;
 }
-
 .footer-left {
   margin-left: 30px;
   float: left;
 }
 .footer-right {
   float: right;
+  font-weight: 300;
   font-family: "Helvetica Neue";
-  font-size: 15px;
+  font-size: 12px;
 }
 img#fb {
   width: 25px;
@@ -274,7 +264,6 @@ img#fb {
 img#fb:hover {
   opacity: 0.9;
 }
-
 img#twitter {
   width: 25px;
   height: 25px;
@@ -284,7 +273,6 @@ img#twitter {
 img#twitter:hover {
   opacity: 0.9;
 }
-
 img#gplus {
   width: 25px;
   height: 25px;
@@ -294,7 +282,6 @@ img#gplus {
 img#gplus:hover {
   opacity: 0.9;
 }
-
 img#insta {
   width: 25px;
   height: 25px;
@@ -304,21 +291,16 @@ img#insta {
 img#insta:hover {
   opacity: 0.9;
 }
-
 .footer-right a {
   text-decoration: none;
   color: #666;
 }
 .footer-right a:hover {
-  color: #222;
+  color: #111;
 }
 
 
-
-
-
 /* PopUp CSS */
-
 input[type=text], input[type=password] {
   width: 90%;
   padding: 12px 20px;
@@ -333,9 +315,10 @@ input[type=text], input[type=password] {
   margin-left: -27px;
   font-size: 14px;
 }
-/* Set a style for all buttons */
+
+/* Set a style for button in PopUp */
 .submit {
-  background-color: #444;
+  background-color: #666;
   color: white;
   padding: 10px 20px;
   margin: 5px 26px;
@@ -360,9 +343,9 @@ input[type=text], input[type=password] {
 .container a:visited {
   color: inherit;
 }
+
 /* Center the image and position the close button */
 .imgcontainer {
-  /* text-align: center; */
   margin: 24px 0 12px 0;
   position: relative;
   margin-top: 6px;
@@ -379,7 +362,6 @@ input[type=text], input[type=password] {
   margin-bottom: 0;
 }
 .imgcontainer p {
-  /* padding: 20px; */
   font-weight: 500;
   width: 90%;
   padding: 5px 10px;

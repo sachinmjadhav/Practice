@@ -2,15 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CONNECT</title>
+  <title>CONNECT .inc</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="link.png">
-  <link href="https://fonts.googleapis.com/css?family=Neuton:400i" rel="stylesheet">
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"> -->
-  <style>
-  @import url('https://fonts.googleapis.com/css?family=Bellefair|Macondo|Playfair+Display|Sedgwick+Ave+Display');
-  </style>
 </head>
 <body>
   <div class="wrapper">
@@ -28,14 +24,14 @@
     <!-- Heading -->
     <div id="home" class="main">
       <div class="header">
-        <img class="link" src="link.png" alt="Chain" width="80px" height="100px">
-        <h1><img src="connect.png" alt="Logo" width="400px" height="80px"></h1>
+        <img class="link" src="img/link.png" alt="Chain" width="80px" height="100px">
+        <h1><img class="title" src="img/picture1.png" alt="Logo" width="430px" height="80px"></h1>
         <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ullam!</i></p>
       </div>
 
       <!-- Content -->
       <div class="left-content">
-        <img src="google-home.png" alt="Google Home" width="100%" height="400px">
+        <img src="img/google-home.png" alt="Google Home" width="100%" height="400px">
       </div>
 
       <div class="right-content">
@@ -59,11 +55,11 @@
     </div>
 
     <div class="right-content2">
-      <img src="google-home2.png" alt="Google Home 2" width="100%" height="400px">
+      <img src="img/google-home2.png" alt="Google Home 2" width="100%" height="400px">
     </div>
 
     <div class="mid-ele">
-      <img src="link.png" alt="Logo" width="50px" height="50px">
+      <img src="img/link.png" alt="Logo" width="50px" height="50px">
       <p>Keep me updated about devices, news and offers from Company.</p><br>
       <button onclick="document.getElementById('modal-wrapper').style.display='block'" class="button2" type="button" name="Sign Up">Sign Up</button>
     </div>
@@ -78,18 +74,15 @@
           </g>
         </svg>
       </a>
-    </div>
-    <!-- Scroll to Top End -->
-
-    <hr id="hr2">
-    <!-- Content End -->
+    </div>  <!-- Scroll to Top End -->
+    <hr id="hr2">  <!-- Content End -->
 
     <!-- PopUp for Sign In   -->
     <div id="modal-wrapper" class="modal">
       <form class="modal-content animate">
         <div class="imgcontainer">
           <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
-          <img src="image3.png" alt="Avatar" class="avatar">
+          <img src="img/image3.png" alt="Avatar" class="avatar">
           <h2 style="text-align:center">Join the adventure</h2>
           <p>Sign up for our weekly updates to hear about new stuff and get some great discounts to boot!</p>
         </div>
@@ -101,17 +94,16 @@
           </form>
         </div>
       </form>
-    </div>
-    <!-- PopUp for Sign In End -->
+    </div>  <!-- PopUp for Sign In End -->
 
     <!-- Footer -->
     <div class="footer">
       <footer>
         <div class="footer-left">
-          <a href="#"><img id="fb" src="fb.png" alt="FB"></a>
-          <a href="#"><img id="twitter" src="twitter.png" alt="Twitter"></a>
-          <a href="#"><img id="gplus" src="g+.png" alt="Google+"></a>
-          <a href="#"><img id="insta" src="insta.png" alt="Instagram"></a>
+          <a href="#"><img id="fb" src="img/fb.png" alt="FB"></a>
+          <a href="#"><img id="twitter" src="img/twitter.png" alt="Twitter"></a>
+          <a href="#"><img id="gplus" src="img/g+.png" alt="Google+"></a>
+          <a href="#"><img id="insta" src="img/insta.png" alt="Instagram"></a>
         </div>
 
         <div class="footer-right">
@@ -172,7 +164,7 @@
     origin:'bottom'
   });
 
-  // Script For PopUp modal
+  // Script for closing PopUp modal
   var modal = document.getElementById('modal-wrapper');
   window.onclick = function(event) {
     if (event.target == modal) {
