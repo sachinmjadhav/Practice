@@ -1,0 +1,220 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #fff;
+  font-family: "Helvetica";
+}
+.wrapper .navi {
+  width: 100%;
+}
+.link {
+  position: fixed;
+  left: 30px;
+  z-index: 101;
+  opacity: 0.6;
+}
+.link:hover {
+  opacity: 0.9;
+}
+.title {
+  position: fixed;
+  z-index: 102;
+  left: 60px;
+  opacity: 0.6;
+}
+.title:hover {
+  opacity: 0.9;
+}
+.navi {
+  width: 100%;
+  position: fixed;
+  right: 1px;
+  z-index: 100;
+  margin-top: -8px;
+  text-align: right;
+  background-color: white;
+  padding: 12px;
+}
+.navi a {
+  text-decoration: none;
+  color: #888;
+  right: 20px;
+  font-weight: normal;
+  word-spacing: 3px;
+  padding: 5px 10px;
+}
+.navi a:nth-child(5) {
+  background-color: #eee;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.navi a:hover {
+  background-color: #eee;
+  border-radius: 10px;
+  color: #111;
+}
+#hr1 {
+  border:none;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 20px;
+  width: 100%;
+  height: 58px;
+  margin-top: 0;
+  border-bottom: 1px solid #aaa;
+  box-shadow: 0 20px 20px -20px #777;
+  margin: -50px auto 10px auto;
+}
+
+/* Header */
+.header-dart {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+/* Content */
+.content {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Helvetica';
+  background-color: #eee;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.content p {
+  font-weight: 600px;
+}
+
+/* Form */
+.form {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  left: 13%;
+  height: 700px;
+  text-align: center;
+}
+.form td {
+  padding: 20px;
+  margin: 10px 20px;
+}
+.input {
+  font-family: 'Helvetica';
+  font-size: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 25px;
+  width: 400px;
+}
+.textarea {
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  width: 900px;
+  padding: 20px;
+  font-size: 15px;
+  /* font-family: 'Century Gothic'; */
+}
+.button {
+  position: relative;
+  right: 14%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid rgb(68,138,255);
+  text-align: center;
+  color: rgb(68,138,255);
+  font-size: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(68,138,255);
+  color: white;
+}
+.copy {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.copy p {
+  opacity: 0.6;
+}
+#hr2 {
+  height: 10px;
+  border: 0;
+  margin-bottom: 1px;
+  box-shadow: 0 -10px 10px -10px #777 inset;
+}
+
+/* Footer */
+.footer {
+  height: 35px;
+  clear: both;
+  margin-bottom: 0px;
+  font-family: cursive;
+  background: linear-gradient(#eee, #ddd);
+  color: black;
+  padding-top: 10px;
+}
+.footer-left {
+  margin-left: 30px;
+  float: left;
+}
+.footer-right {
+  float: right;
+  font-weight: 300;
+  font-family: "Helvetica";
+  padding: 5px;
+  font-size: 13px;
+}
+img#fb {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#fb:hover {
+  opacity: 0.9;
+}
+img#twitter {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#twitter:hover {
+  opacity: 0.9;
+}
+img#gplus {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#gplus:hover {
+  opacity: 0.9;
+}
+img#insta {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#insta:hover {
+  opacity: 0.9;
+}
+.footer-right a {
+  text-decoration: none;
+  color: #666;
+}
+.footer-right a:hover {
+  color: #111;
+}
