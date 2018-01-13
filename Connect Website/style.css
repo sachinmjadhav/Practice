@@ -32,14 +32,11 @@ html {
   padding: 5px 24px;
 }
 .navi a:nth-child(1) {
-  background-color: #eee;
-  border-radius: 10px;
-  font-weight: bold;
+  color: rgba(104,152,211,0.8);
+  font-weight: bolder;
 }
 .navi a:hover {
-  background-color: #eee;
-  border-radius: 10px;
-  color: #111;
+  color: rgba(104,152,211,0.9);
 }
 #hr1 {
   border:none;
@@ -303,7 +300,7 @@ img#insta:hover {
   color: #666;
 }
 .footer-right a:hover {
-  color: #111;
+  color: rgba(104,152,211,0.9);
 }
 
 
@@ -339,16 +336,6 @@ input[type=text], input[type=password] {
   opacity: 0.8;
   background-color: rgb(68,138,255);
   color: white;
-}
-.container a {
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-.container a:hover {
-  text-decoration: underline;
-}
-.container a:visited {
-  color: inherit;
 }
 
 /* Center the image and position the close button */

@@ -52,14 +52,11 @@ html {
   padding: 5px 10px;
 }
 .navi a:nth-child(3) {
-  background-color: #eee;
-  border-radius: 10px;
-  font-weight: bold;
+  font-weight: bolder;
+  color: rgba(104,152,211,0.8);
 }
 .navi a:hover {
-  background-color: #eee;
-  border-radius: 10px;
-  color: #111;
+  color: rgba(104,152,211,0.8);
 }
 #hr1 {
   border:none;

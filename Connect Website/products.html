@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="products.css">
+  <link rel="icon" href="img/link.png">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Navigation -->
+    <div class="navi">
+      <a href="index.html" target="_self">HOME</a>
+      <a href="#">PRODUCTS</a>
+      <a href="AboutUs.html">ABOUT US</a>
+      <a href="#">JOIN US</a>
+      <a href="contact.html">CONTACT US</a>
+      <br>
+      <hr id="hr1">
+    </div>
+    <a class="link" href="index.html"><img src="img/link.png" width="25px" height="25px" alt="Link"></a>
+    <a class="title" href="index.html"><img src="img/picture1.png" width="150px" height="25px" alt=""></a>
+  </div>  <!-- Wrapper End -->
+
+  <div class="products">
+    <div class="prod1" style="margin: 50px 10px 100px 10px">
+      <table width="100%" height="400px">
+        <tr>
+          <td width="50%" margin: "90px 10px 100px 150px">
+            <img class="g-home" src="img/home.png" alt="Google Home" width="100%" height="400px">
+          </td>
+          <td class="prod-text" margin: "90px 10px 100px 150px" style="cursor:default">
+            <h3>Google Home</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus numquam, dicta fugiat beatae modi ipsa saepe atque molestiae neque harum!</p>
+            <p class="sold">SOLD OUT &#8377; 24,499</p>
+            <input class="notify" type="text" name="Notify" placeholder="Notify me when available"><button class="submit" type="button" name="button">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="prod2" style="margin: 100px 10px 100px 10px">
+      <table width="100%" height="400px">
+        <tr>
+          <td width="50%" margin: "90px 10px 100px 150px">
+            <img class="g-home" src="img/home-mini.jpg" alt="Home Mini" width="80%" height="400px">
+          </td>
+          <td class="prod-text" margin: "90px 10px 100px 150px" style="cursor:default">
+            <h3>Home Mini</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, expedita consequatur laborum nihil aspernatur dolor laboriosam tempora eum asperiores adipisci?</p>
+            <p class="sold">SOLD OUT &#8377; 6,550</p>
+            <input class="notify" type="text" name="Notify" placeholder="Notify me when available"><button class="submit" type="button" name="button">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="prod3" style="margin: 100px 10px 100px 10px">
+      <table width="100%" height="400px">
+        <tr>
+          <td width="50%" margin: "90px 10px 100px 150px">
+            <img class="pixel1" src="img/pixel1.png" alt="Pixel 1" width="70%" height="400px" style="margin: 90px 10px 100px 90px">
+          </td>
+          <td class="prod-text" width="50%" margin: "90px 10px 100px 150px" style="cursor:default">
+            <h3>Pixel 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, tempora cumque repudiandae atque odio molestiae quam cupiditate labore doloribus.</p>
+            <p class="sold">SOLD OUT &#8377; 24,499</p>
+            <input class="notify" type="text" name="Notify" placeholder="Notify me when available"><button class="submit" type="button" name="button">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="prod4" style="margin: 100px 10px 100px 10px">
+      <table width="100%" height="400px">
+        <tr>
+          <td width="50%" margin: "90px 10px 100px 150px">
+            <img class="pixel2" src="img/pixel2.jpg" alt="Pixel 2" width="100%" height="400px">
+          </td>
+          <td class="prod-text" width="50%" margin: "90px 10px 100px 150px" style="cursor:default">
+            <h3>Pixel 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, incidunt repellat assumenda magnam rerum nisi in. Doloremque porro commodi earum.</p>
+            <p class="sold">SOLD OUT &#8377; 49,999</p>
+            <input class="notify" type="text" name="Notify" placeholder="Notify me when available"><button class="submit" type="button" name="button">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <hr id="hr2">
+
+  <!-- Footer -->
+  <div class="footer">
+    <footer>
+      <div class="footer-left">
+        <a href="#"><img id="fb" src="img/fb.png" alt="FB"></a>
+        <a href="#"><img id="twitter" src="img/twitter.png" alt="Twitter"></a>
+        <a href="#"><img id="gplus" src="img/g+.png" alt="Google+"></a>
+        <a href="#"><img id="insta" src="img/insta.png" alt="Instagram"></a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#">PRIVACY &nbsp; &nbsp;</a>
+        <a href="#">PRODUCT TERMS OF SALE &nbsp; &nbsp;</a>
+        <a href="#">TERMS OF SERVICE &nbsp; &nbsp;</a>
+      </div>
+    </footer>
+  </div>     <!-- Footer End   -->
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.g-home', {
+    duration: 3000,
+    origin:'left'
+  });
+  sr.reveal('.g-mini', {
+    duration: 3000,
+    origin:'left'
+  });
+  sr.reveal('.pixel1', {
+    duration: 3000,
+    origin:'left'
+  });
+  sr.reveal('.pixel2', {
+    duration: 3000,
+    origin:'left'
+  });
+  sr.reveal('.prod-text', {
+    duration: 2000,
+    origin:'bottom'
+  });
+  </script>
+</body>
+</html>
