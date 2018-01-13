@@ -59,6 +59,16 @@ html {
   position: absolute;
   left: 27%;
   opacity: 0.6;
+  animation: spin 3s linear infinite;
+  -webkit-animation: spin 3s liner infinite;
+  animation-iteration-count: 0.5;
+}
+@@keyframes spin {
+  100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes spin {
+  /* 0% { transform: rotate(0deg);} */
+  100% { transform: rotate(360deg);}
 }
 .link:hover {
   opacity: 0.9;
