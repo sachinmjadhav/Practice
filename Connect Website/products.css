@@ -135,12 +135,22 @@ html {
 }
 .products h3 {
   text-align: center;
-  color: #333;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 40px;
   padding: 10px;
   margin: 10px;
 }
-
+.scroll {
+  position: relative;
+  opacity: 0.7;
+  left: 1200px;
+  cursor: pointer;
+}
+.scroll a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 #hr2 {
   height: 10px;
   border: 0;

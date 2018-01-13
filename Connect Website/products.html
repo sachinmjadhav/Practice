@@ -8,13 +8,13 @@
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper" id="home">
     <!-- Navigation -->
     <div class="navi">
       <a href="index.html" target="_self">HOME</a>
       <a href="#">PRODUCTS</a>
       <a href="AboutUs.html">ABOUT US</a>
-      <a href="#">JOIN US</a>
+      <a href="join-us.html">JOIN US</a>
       <a href="contact.html">CONTACT US</a>
       <br>
       <hr id="hr1">
@@ -60,7 +60,7 @@
           <td width="50%" margin: "90px 10px 100px 150px">
             <img class="pixel1" src="img/pixel1.png" alt="Pixel 1" width="70%" height="400px" style="margin: 90px 10px 100px 90px">
           </td>
-          <td class="prod-text" width="50%" margin: "90px 10px 100px 150px" style="cursor:default">
+          <td class="prod-text" width="50%" margin: "90px 10px 60px 150px" style="cursor:default">
             <h3>Pixel 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quae, tempora cumque repudiandae atque odio molestiae quam cupiditate labore doloribus.</p>
             <p class="sold">SOLD OUT &#8377; 24,499</p>
@@ -85,6 +85,17 @@
       </table>
     </div>
   </div>
+  <!-- Scroll to Top -->
+  <div class="scroll" id="scroll">
+    <a href="#home">Back to Top
+      <svg class="scroll-to-top" width="20px" height="20px">
+        <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+          <circle cx="9" cy="9" fill="#000" r="9"></circle>
+          <polygon fill="#fff" points="3 9 4.0575 10.0575 8.25 5.8725 8.25 15 9.75 15 9.75 5.8725 13.935 10.065 15 9 9 3"></polygon>
+        </g>
+      </svg>
+    </a>
+  </div>  <!-- Scroll to Top End -->
   <hr id="hr2">
 
   <!-- Footer -->
