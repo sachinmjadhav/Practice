@@ -58,7 +58,7 @@ html {
   height: inherit;
   position: absolute;
   left: 27%;
-  opacity: 0.6;
+  opacity: 0.7;
   animation: spin 3s linear infinite;
   -webkit-animation: spin 3s liner infinite;
   animation-iteration-count: 0.5;
@@ -67,7 +67,6 @@ html {
   100% {transform: rotate(360deg);}
 }
 @-webkit-keyframes spin {
-  /* 0% { transform: rotate(0deg);} */
   100% { transform: rotate(360deg);}
 }
 .link:hover {
@@ -82,7 +81,7 @@ html {
   text-align: center;
 }
 .main .title {
-  opacity: 0.65;
+  opacity: 0.8;
 }
 .title:hover {
   opacity: 0.9;
@@ -214,6 +213,17 @@ cite {
   text-align: center;
   padding-left: 25%;
 }
+.mid-link {
+  animation: spin-mid 3s linear infinite;
+  -webkit-animation: spin 3s liner infinite;
+  animation-iteration-count: 3;
+}
+@keyframes spin-mid {
+  100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes spin-mid {
+  100% { transform: rotate(360deg);}
+}
 .button2 {
   background-color: white;
   border: 2px solid rgb(68,138,255);
@@ -242,77 +252,6 @@ cite {
   color: black;
   font-weight: bold;
 }
-#hr2 {
-  height: 10px;
-  border: 0;
-  margin-bottom: 1px;
-  box-shadow: 0 -10px 10px -10px #777 inset;
-}
-
-/* Footer */
-.footer {
-  height: 35px;
-  clear: both;
-  margin-bottom: 0px;
-  font-family: cursive;
-  background: linear-gradient(#eee, #ddd);
-  color: black;
-  padding-top: 10px;
-}
-.footer-left {
-  margin-left: 30px;
-  float: left;
-}
-.footer-right {
-  float: right;
-  font-weight: 300;
-  font-family: "Helvetica Neue";
-  font-size: 12px;
-}
-img#fb {
-  width: 25px;
-  height: 25px;
-  padding: 0 5px 0 5px;
-  opacity: 0.5;
-}
-img#fb:hover {
-  opacity: 0.9;
-}
-img#twitter {
-  width: 25px;
-  height: 25px;
-  padding: 0 5px 0 5px;
-  opacity: 0.5;
-}
-img#twitter:hover {
-  opacity: 0.9;
-}
-img#gplus {
-  width: 30px;
-  height: 30px;
-  padding: 0 5px 0 5px;
-  opacity: 0.5;
-}
-img#gplus:hover {
-  opacity: 0.9;
-}
-img#insta {
-  width: 25px;
-  height: 25px;
-  padding: 0 5px 0 5px;
-  opacity: 0.5;
-}
-img#insta:hover {
-  opacity: 0.9;
-}
-.footer-right a {
-  text-decoration: none;
-  color: #666;
-}
-.footer-right a:hover {
-  color: rgba(104,152,211,0.9);
-}
-
 
 /* PopUp CSS */
 input[type=text], input[type=password] {

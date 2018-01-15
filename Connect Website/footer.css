@@ -1,0 +1,71 @@
+#hr2 {
+  height: 10px;
+  border: 0;
+  margin-bottom: 1px;
+  box-shadow: 0 -10px 10px -10px #777 inset;
+}
+
+/* Footer */
+.footer {
+  height: 35px;
+  clear: both;
+  margin-bottom: 0px;
+  font-family: cursive;
+  background: linear-gradient(#eee, #ddd);
+  color: black;
+  padding-top: 10px;
+}
+.footer-left {
+  margin-left: 30px;
+  float: left;
+}
+.footer-right {
+  float: right;
+  font-weight: 300;
+  font-family: "Helvetica";
+  padding: 5px;
+  font-size: 13px;
+}
+img#fb {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#fb:hover {
+  opacity: 0.9;
+}
+img#twitter {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#twitter:hover {
+  opacity: 0.9;
+}
+img#gplus {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#gplus:hover {
+  opacity: 0.9;
+}
+img#insta {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  opacity: 0.5;
+}
+img#insta:hover {
+  opacity: 0.9;
+}
+.footer-right a {
+  text-decoration: none;
+  color: #666;
+}
+.footer-right a:hover {
+  color: #111;
+}
