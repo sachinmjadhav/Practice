@@ -1,0 +1,41 @@
+HOW WELL DO YOU KNOW SACHIN?
+
+1. Which among these is my favorite food?
+	a) Pizza
+	b) Burger
+	c) Biryani
+	d) Chicken Popcorn
+
+
+2. What kind of Music do I like to listen to?
+	a) EDM
+	b) Pop
+	c) Bollywood
+	d) Classical
+
+3. Which sport do I like the most?
+	a) Soccer
+	b) Basketball
+	c) Cricket
+	d) Hockey
+
+4. What stream did I do my Master's degree in?
+	a) Computer Integrated Design Engineering
+	b) Computer Integrated Prototyping
+	c) Computer Integrated Manufacturing
+	d) Computer Integrated Analysis
+
+5. Do you love me xD ?
+	a) Yes :)
+	b) Of course, Yes :D
+	c) Obviously, Yes xD
+	d) Hell Yes! xD xD xD
+
+
+
+
+new Question("Which among these is my favorite food?", ["Pizza", "Burger", "Biryani", "Chicken Popcorn"], "Chicken Popcorn"),
+  new Question("What kind of Music do I like to listen to?", ["EDM", "Pop", "Bollywood", "Classical"], "Classical"),
+  new Question("Which sport do I like the most?", ["Soccer", "Basketball", "Cricket", "Hockey"], "Basketball"),
+  new Question("What stream did I do my Master's degree in?", ["Computer Integrated Design Engineering", "Computer Integrated Prototyping", "Computer Integrated Manufacturing", "Computer Integrated Analysis"], "Computer Integrated Manufacturing"),
+  new Question("Do you love me xD ?", ["Yes :)", "Of course, Yes :D", "Obviously, Yes xD", "All"], "All")
