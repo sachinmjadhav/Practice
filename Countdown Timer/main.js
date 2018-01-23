@@ -25,7 +25,7 @@ function timer(seconds) {
     }, 1000);
 }
 
-timer(3000);
+timer(0);
 
 
 function displayTimeLeft(seconds) {
