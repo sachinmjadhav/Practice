@@ -73,13 +73,13 @@ EvilCircle.prototype.checkBounds = function () {
 EvilCircle.prototype.setControls = function () {
     var _this = this;
     window.onkeydown = function (e) {
-        if (e.keyCode === 65) {
+        if (e.keyCode === 37) {
             _this.x -= _this.velX;
-        } else if (e.keyCode === 68) {
+        } else if (e.keyCode === 39) {
             _this.x += _this.velX;
-        } else if (e.keyCode === 87) {
+        } else if (e.keyCode === 38) {
             _this.y -= _this.velY;
-        } else if (e.keyCode === 83) {
+        } else if (e.keyCode === 40) {
             _this.y += _this.velY;
         }
     }
